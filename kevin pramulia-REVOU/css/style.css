@@ -1,0 +1,94 @@
+/* * {
+    width: 98%;
+    
+ } */
+ h2 {
+    display: block;
+    text-align: center;
+} 
+h3 {
+    margin: 0;
+}
+
+
+nav > button{
+    width: 103%;
+    height: 30px;
+    border: 0;
+
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+.end {
+    display: flex;
+    justify-content:  flex-end;
+    margin-bottom: 30px;
+}
+header {
+    text-align:  center;
+    width: 100%;
+}
+header> p{
+    
+    margin: 5px;
+}
+header > h3 {
+    background-color: aqua;
+    /* color: white; */
+    width: 102%;
+    border: none ;
+    padding: 10px;
+
+}
+#luas-segitiga {
+    width: 100%;
+    display: block;
+}
+
+#keliling-segitiga {
+    width: 100%;
+    display: none;
+}
+
+.judul {
+    text-align:  center;
+    background-color: aqua;
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.image {
+    width: 100%;
+    
+    margin: auto;
+    text-align: center;
+}
+input {
+    width: 100%;
+    margin: 10px 0;
+    height: 30px;
+}
+
+.Hitung {
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #1198ff ;
+    color: white;
+    width: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.reset {
+    padding: 7px;
+    border-radius: 5px;
+    background-color: rgb(255, 145, 0);
+    color: white;
+    width: 100px;
+}
+
+

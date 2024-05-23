@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Welcome to kalkulator segitiga
+        </h1>
+        <p>Selamat Datang </p>
+        <p>Sebuah web apps sederhana yang befungsi untuk menghitung nilai luas dan keliling bangun datar</p>
+        <h3>segitiga</h3>
+    
+    </header>
+    <nav>
+            
+            <button  onclick="buttonGanti()">Ganti Perhitungan</button>
+            
+    </nav>
+   
+    <section id="luas-segitiga">
+        <div class="judul">
+            <h2>Luas segitiga</h2>
+            
+        </div>
+        <div class="image"><img src="asset/gambar_segitiga.jpg" alt=""></div>
+       
+        <h2> Hitung Luas segitiga</h2>
+        <form action="">
+            <input type="number" id="Alas" placeholder="Nilai Alas">
+            <input type="number" id="Tinggi" placeholder="Nilai TInggi">
+            
+            <!-- <input type="submit" value="submit"> -->
+            <div class="center">
+                <button type="button" class="Hitung"  onclick="hitungLuas()">Hitung</button>
+            </div>
+            <div class="end"> 
+                <button type="button" class="reset">reset</button>
+            </div>
+        </form>
+        <div id="hasilLuas">
+            
+        </div>
+    </section>
+<!-- ini menghitung keloiling segitaiga -->
+
+    <section id="keliling-segitiga">
+
+        <div class="judul">
+            <h2>Keliling segitiga</h2>
+            
+        </div>
+        <div class="image"><img src="asset/keliling_segitiga.jpg" alt=""></div>
+        <h2>Hitung Keliling segitiga</h2>
+        <form action="">
+            <input type="number" id="nilai-a" placeholder="Nilai a">
+            <input type="number" id="nilai-b"placeholder="Nilai b">
+            <input type="number" id="nilai-c"placeholder="Nilai c">
+            <!-- <input type="submit" value="submit"> -->
+            <div class="center">
+                <button type="button" class="Hitung" onclick="hitungKeliling()" >Hitung</button>
+            </div>
+            <div class="end"> 
+                <button type="button" class="reset">reset</button>
+            </div>
+        </form>
+        <div id="hasilKeliling"></div>
+    </section>
+    <script src="js/scripts.js"></script>
+</body>
+</html>
